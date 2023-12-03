@@ -1,0 +1,13 @@
+.neon-pink {
+  color: theme("colors.accent.300");
+  transition: text-shadow 0.1s ease-in-out;
+  text-shadow:
+    0 0 1px #fff,
+    0 0 2px theme("colors.accent.400");
+
+  &:hover {
+    text-shadow:
+      0 0 1px #fff,
+      0 0 8px theme("colors.accent.200");
+  }
+}
